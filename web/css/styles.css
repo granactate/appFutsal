@@ -1,0 +1,355 @@
+body {
+	background-color: #121213;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+header {
+	height: 150px;
+	min-width: 600px;
+	position: fixed;
+	width: 100%;
+}
+
+#cabecera {
+	font-size: 20px;
+	height: 80px;
+	margin: 0 auto 0 auto;
+	min-width: 600px;
+	padding-top: 20px;
+	position: relative;
+	top: 0;
+	width: 800px;
+}
+
+
+#fotousuario {
+	border-top: solid #340658 1px;
+	border-right: solid #340658 1px;
+	border-left: solid #340658 1px;
+	display: inline-block;
+	height: 80px;
+	min-width: 80px;
+	width: 80px;
+}
+
+#infousuario {
+	display: inline-block;
+	height: 80px;
+	min-width: 510px;
+	text-align: right;
+	vertical-align: top;
+	width: 710px;
+}
+
+#cabecera > #infousuario > a {
+	color: #340658;
+}
+
+#cabecera > #infousuario > a:hover {
+	text-decoration: underline;
+}
+
+#cabecera > #infousuario > .formulario {
+	display: inline-block;
+}
+
+nav {
+	border-top: solid #340658 1px;
+	font-size: 26px;
+	height: 49px;
+	margin: 0 auto 0 auto;
+	min-width: 600px;
+	position: relative;
+	top: 0;
+	width: 800px;
+}
+
+header,
+nav,
+article > form > .titulo,
+article > .titulo {
+	background-color: #27d12f;
+	color: white;
+}
+
+nav > a >.botonnav,
+nav > a >.botonnavhome {
+	display: inline-block;
+	height: 49px;
+	min-width: 50px;
+	padding: 0 10px;
+}
+
+nav > a > .botonnav:hover {
+	background-color: #340658;
+}
+
+nav > a > .botonnavhome:hover {
+	background-color: white;
+        color: #340658;
+}
+
+section {
+	border-bottom: #340658 solid 1px;
+	margin: 0 auto 0 auto;
+	min-width: 600px;
+	padding: 160px 0 0 0;
+	width: 800px;
+}
+
+.cajaformulario {
+    display: block;
+    margin: 0 200px;
+    padding: 10px;
+}
+
+.formulariosection {
+    display: block;
+}
+.subformulariosection {
+    display: block;
+    padding-left: 20px;
+}
+
+.formulariosection:hover,
+.subformulariosection:hover {
+    background-color: #340658;
+    color: white;
+}
+
+.registro {
+    width: 370px;
+}
+
+article {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+article > .titulo > .botonnuevaentrada {
+	background-color: #18b820;
+	padding: 5px;
+	text-align: center;
+	width: 80px;
+}
+
+article > .titulo > .botonnuevaentrada:hover {
+	background-color: #10b016;
+}
+
+article > form > .titulo > .texto,
+article > .titulo > .texto,
+article > .titulo > .opcion,
+article > .titulo > .id,
+article > .cuerpo > .descripcion,
+article > form > .cuerpo > .contenido,
+article > .cuerpo > .contenido,
+article > form > .pie,
+article > .pie > .boton {
+	padding: 5px;
+}
+
+article > form > .titulo > .imagen,
+article > .titulo > .imagen {
+	display: inline-block;
+	padding-left: 5px;
+}
+
+article > form > .titulo > .texto,
+article > .titulo > .texto {
+	display: inline-block;
+	min-width: 410px;
+	width: 610px;
+}
+
+article > .titulo > .opcion {
+	display: inline-block;
+	text-align: right;
+	width: 150px;
+}
+
+article > .titulo > .opcion > a {
+	color: #121213;
+}
+
+article > .titulo > .opcion > a:hover {
+	text-decoration: underline;
+}
+
+article > .titulo > .id {
+	color: #121213;
+	display: inline-block;
+	text-align: right;
+	width: 50px;
+}
+
+article > .autor {
+	display: inline-block;
+	height: auto;
+	width: 50px;
+}
+
+article > .autor > .imagenautor {
+	border: solid #27d12f 1px;
+	height: 38px;
+	margin: 5px; 
+	width: 38px;
+}
+
+article > #cuerpo {
+	display: inline-block;
+	min-width: 550px;
+	vertical-align: top;
+	width: 750px;
+}
+
+article > #cuerpo > .descripcion {
+	border-bottom: solid #27d12f 1px;
+	font-style: italic;
+}
+
+article > form > #cuerpo > .contenido,
+article > #cuerpo > .contenido {
+	min-height: 50px;
+}
+
+article {
+	background-color: #d9d9e8;
+	color: #121213;
+}
+
+article > form > .pie,
+article > .pie {
+	border-top: solid #27d12f 1px;
+	text-align: right;
+	border-bottom: solid #340658 1px;
+}
+
+article > .pie > .boton {
+	display: inline-block;
+	min-width: 50px;
+}
+
+article > .comentario {
+	background-color: #d6c8e1;
+	color: #121213;
+	padding: 5px 5px 5px 55px;
+}
+
+footer {
+	color: #684898;
+	margin: 0 100px 0 100px;
+	min-width: 600px;
+	padding: 10px 10px 50px 10px;
+	text-align: center;
+}
+
+header,
+nav,
+section.
+footer {
+	font-size: inherit;
+}
+
+#presentacionperfil {
+	background-color: #d9d9e8;
+	color: #121213;
+	margin-bottom: 10px;
+	min-width: 580px;
+	padding: 10px;
+
+	width: 780px;
+}
+
+#presentacionperfil > #fotoperfil {
+	border: solid #293f0a 1px;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+#presentacionperfil > #informacionperfil {
+	display: inline-block;
+	min-width: 373px;
+	vertical-align: top;
+	width: 573px;
+}
+
+#presentacionperfil > #informacionperfil > .filaperfil {
+	padding: 2px;
+}
+
+#presentacionperfil > #informacionperfil > .filaperfil > .nombrecampo {
+	display: inline-block;
+	padding-right: 2px;
+}
+
+#presentacionperfil > #informacionperfil > .filaperfil > .valorcampo {
+	display: inline-block;
+	padding-left: 2px;
+}
+
+
+
+
+
+
+
+#mensaje {
+	background-color: #27d12f;
+	color: #ccc;
+	padding: 10px;
+	margin: 200px auto 100px auto;
+	text-align: center;
+	width: 400px;
+}
+
+#error {
+	background-color: #660000;
+	color: #ccc;
+	padding: 10px;
+	margin: 200px auto 100px auto;
+	text-align: center;
+	width: 400px;
+}
+        
+#mensaje > a,
+#error > a {
+        color: white;
+	display: inline-block;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+#mensaje > a:hover,
+#error > a:hover {
+        text-decoration: underline;
+}
+
+
+
+
+
+
+
+input,
+select {
+	margin: 2px;
+}
+
+input:valid {
+    color: #121213;
+}
+
+input:invalid {
+    color: #0000ff;
+}
